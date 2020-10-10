@@ -1,0 +1,18 @@
+{
+  "name": "zhihu-api",
+  "version": "1.0.0",
+  "description": "知乎Api",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.4.0",
+    "nodemon": "^2.0.4"
+  }
+}
